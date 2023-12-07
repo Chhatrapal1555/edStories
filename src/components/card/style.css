@@ -1,0 +1,66 @@
+.img_section{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+.card{
+    width: 45vh;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    margin: 10px;
+    background-color: #efefef;
+    height: 400px;
+    cursor: pointer;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,.1);
+    border: 1px solid rgba(0,168,255,.3);
+    text-overflow: ellipsis;
+
+}
+.card_detail{
+    padding-inline: 15px;
+    /* padding-bottom: 10px; */
+}
+.image{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+.author_section{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin-top: 0.3em;
+}
+.author{
+    font-weight: 500;
+    color: #0096ff;
+    padding-right: 10px;
+}
+.date{
+    padding-left: 10px;
+}
+.title{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.14;
+    color: #000;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+.description{
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: .35px;
+    text-align: left;
+    color: #000;
+    margin: 0.3em 0;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+}

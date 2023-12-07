@@ -1,0 +1,50 @@
+.main_section{
+    background-color: #f2f6ff;
+    margin-top: 60px;
+    min-height: 100vh;
+    padding: 2% 16%;
+}
+.main_section h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.categories_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.categorieFilter_section p{
+    font-size: 16px;
+}
+.fi_icon{
+    color: #0084ff;
+    height: 20px;
+    /* margin: 10px; */
+}
+.categories p{
+    border: 1px solid #0084ff;
+    border-radius: 15rem;
+    padding: 6px 16px;
+    color: #0084ff;
+    margin-inline: 5px;
+    font-size: 0.75em;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+.card_section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.categories p:hover{
+    background-image: linear-gradient(269deg,#0048ff,#0096ff);
+    color: #f2f6ff;
+}
+@media only screen and (max-width: 450px){
+    .main_section{
+        width: 100%;
+    }
+    .categories_section{
+        display: none;
+    }
+}
